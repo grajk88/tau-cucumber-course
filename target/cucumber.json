@@ -1,0 +1,372 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-01T19:28:09.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7555885000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.quitBrowser() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3468600300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_the_login_page_of_the_Para_Bank_Application() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1243985300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter valid \"autotester\" and \"password\" with \"Auto Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"autotester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Auto Tester\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(String,String,String) in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7476308800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-01T19:28:29.312Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5645130000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.quitBrowser() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3927138100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_the_login_page_of_the_Para_Bank_Application() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2893949300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter valid \"tautester\" and \"password\" with \"TAU Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tautester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"TAU Tester\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(String,String,String) in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6551740800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "\tIn order to do internet banking\n\tAs a valid Para Bank customer\n\tI want to login successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-01T19:28:09.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7552867100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.quitBrowser() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4380620000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_the_login_page_of_the_Para_Bank_Application() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2398809800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter valid \"autotester\" and \"password\" with \"Auto Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"autotester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Auto Tester\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(String,String,String) in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6818946400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-01T19:28:30.716Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5889842100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.quitBrowser() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3637925300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "com.tau.steps.Steps.i_am_in_the_login_page_of_the_Para_Bank_Application() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2706580900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter valid \"tautester\" and \"password\" with \"TAU Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tautester\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"TAU Tester\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.tau.steps.Steps.i_enter_valid_credentials(String,String,String) in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7304797400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.tau.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/C:/Users/vgrk2/eclipse-workspace-2/tau-cucumber-course/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "\tIn order to do internet banking\n\tAs a valid Para Bank customer\n\tI want to login successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login2.feature",
+    "tags": []
+  }
+]
