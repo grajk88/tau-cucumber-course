@@ -55,8 +55,9 @@ public class Steps extends BaseUtil {
 	@Then("I should be taken to the Overview page")
 	public void i_should_be_taken_to_the_Overview_page() throws Exception {
 
-		Thread.sleep(5000)
-
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(“//*[@id=\rightPanel\”]/div/div/h1”)));
+	
 		driver.findElement(By.xpath(“//*[@id=\rightPanel\”]/div/div/h1”)).isDisplayed();
 		driver.findElement(By.linkText(“Log out”)).click()’
 		driver.quit();	
@@ -114,7 +115,8 @@ public class Steps extends BaseUtil {
 	@Then("I should be taken to the Overview page")
 	public void i_should_be_taken_to_the_Overview_page() throws Exception {
 		
-		Thread.sleep(5000);
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.elementToBeClickable(By.className("smallText")));
 		
 		String actualuserFullName = driver.findElement(By.className("smallText")).getText().toString();
 
