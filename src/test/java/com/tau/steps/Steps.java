@@ -124,13 +124,14 @@ public class Steps extends BaseUtil {
 		
 		driver.findElement(By.linkText("Log Out")).click();
 		
-		driver.quit();
+		// driver.quit();
 	  
 	}
 	
 
 	@When("I enter valid credentials")
 	public void i_enter_valid_credentials(DataTable table) {
+		
 		List<String> loginForm=table.asList();
 
 		driver.findElement(By.name("username")).sendKeys(loginForm.get(0));
