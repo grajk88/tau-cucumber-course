@@ -8,5 +8,3 @@ This project is licensed under the MIT License - see [here](https://mit-license.
 
 ## Author
 Giridhar Rajkumar
-LinkedIn - Giridhar Rajkumar
-Twitter - @vgrk2017
